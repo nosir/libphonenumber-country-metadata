@@ -1,0 +1,22 @@
+{
+  "name": "libphonenumber-country",
+  "title": "libphonenumber-country",
+  "version": "0.0.1",
+  "author": {
+    "name": "Max Huang",
+    "url": "http://github.com/nosir",
+    "email": "risonhuang@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "google-closure-library": "^20160517.0.0",
+    "gulp": "^3.9.1",
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sync": "^0.1.4",
+    "gulp-template": "^4.0.0",
+    "run-sequence": "^1.2.1",
+    "underscore": "^1.8.3"
+  }
+}

@@ -33,14 +33,14 @@ var metadataSequence = [];
 var countrySequence = [];
 
 // for generating all-in-one metadata and lib file
-countries.push('full');
+countries.push('i18n');
 
 // every single country
 _.each(countries, function (country) {
     // register all tasks to generate metadata.country.js files
     gulp.task('build-metadata:' + country, function () {
         return gulp.src([path.join(paths.src, 'metadata.tpl')])
-            .pipe(template(country === 'full' ? metadata : {
+            .pipe(template(country === 'i18n' ? metadata : {
                 countryCodeToRegionCodeMap: _.pick(metadata.countryCodeToRegionCodeMap, function (value) {
                     return _.contains(value, country);
                 }),

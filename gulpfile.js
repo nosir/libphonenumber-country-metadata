@@ -69,7 +69,7 @@ _.each(countries, function (country) {
                     closure_entry_point:       paths.namespace,
                     compilation_level:         'ADVANCED_OPTIMIZATIONS',
                     only_closure_dependencies: true,
-                    output_wrapper:            '(function(){%output%}.call(window));',
+                    output_wrapper:            '!function(){%output%}.call((typeof global==="object"&&global)?global:window);',
                     warning_level:             'VERBOSE'
                 }
             }))

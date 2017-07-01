@@ -39,13 +39,18 @@ countries.push('i18n');
 _.each(countries, function (country) {
     // register all tasks to generate metadata.country.js files
     gulp.task('build-metadata:' + country, function () {
+        var codeMap = _.pick(metadata.countryCodeToRegionCodeMap, function (value) {
+          return _.contains(value, country);
+        });
+
+        var codeMapCountries = _.flatten(_.values(codeMap));
+
         return gulp.src([path.join(paths.src, 'metadata.tpl')])
             .pipe(template(country === 'i18n' ? metadata : {
-                countryCodeToRegionCodeMap: _.pick(metadata.countryCodeToRegionCodeMap, function (value) {
-                    return _.contains(value, country);
-                }),
-
-                countryToMetadata: _.pick(metadata.countryToMetadata, country)
+                countryCodeToRegionCodeMap: codeMap,
+                countryToMetadata: _.pick(metadata.countryToMetadata, function (value, key) {
+                  return _.contains(codeMapCountries, key);
+                })
             }))
             .pipe(rename('metadata.' + country + '.js'))
             .pipe(gulp.dest(path.join(paths.dist, paths.metadataCountry)));

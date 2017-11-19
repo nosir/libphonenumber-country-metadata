@@ -16,6 +16,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sync": "^0.1.4",
     "gulp-template": "^4.0.0",
+    "minimist": "^1.2.0",
     "run-sequence": "^1.2.1",
     "underscore": "^1.8.3"
   }

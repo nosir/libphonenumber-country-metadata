@@ -26,7 +26,7 @@ gulp build-metadata:all
 For customized countries combination group:
 
 ```
-// coming very soon
+gulp build-country:customized --countries=AU,CN...
 ```
 
 ### Note for building your own libphonenumber lib

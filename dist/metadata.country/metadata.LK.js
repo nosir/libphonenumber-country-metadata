@@ -46,23 +46,40 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[1-9]\\d{8}",
-			"\\d{7,9}"
+			"(?:[1-7]\\d|[89]1)\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			],
+			[
+				7
+			]
 		],
 		[
 			null,
 			null,
 			"(?:[189]1|2[13-7]|3[1-8]|4[157]|5[12457]|6[35-7])[2-57]\\d{6}",
-			"\\d{7,9}",
 			null,
 			null,
-			"112345678"
+			null,
+			"112345678",
+			null,
+			null,
+			null,
+			[
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"7[0125-8]\\d{7}",
-			"\\d{9}",
+			"7[0-25-8]\\d{7}",
+			null,
 			null,
 			null,
 			"712345678"
@@ -70,32 +87,72 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"LK",
 		94,
@@ -110,7 +167,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"(\\d{2})(\\d{1})(\\d{6})",
+				"(\\d{3})(\\d{3})(\\d{3})",
 				"$1 $2 $3",
 				[
 					"[1-689]"
@@ -131,30 +188,57 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			"1973\\d{5}",
+			null,
+			null,
+			null,
+			"197312345"
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

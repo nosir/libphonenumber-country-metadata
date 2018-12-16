@@ -47,14 +47,22 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[268]\\d{8}",
-			"\\d{9}"
+			"(?:26|[68]\\d)\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"262\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"262161234"
@@ -62,8 +70,8 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"6(?:9[23]|47)\\d{6}",
-			"\\d{9}",
+			"69(?:2\\d\\d|3(?:0[0-46]|1[013]|2[0-2]|3[0-39]|4\\d|5[05]|6[0-26]|7[0-27]|8[0-38]|9[0-479]))\\d{4}",
+			null,
 			null,
 			null,
 			"692123456"
@@ -72,7 +80,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"80\\d{7}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"801234567"
@@ -81,7 +89,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"89[1-37-9]\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"891123456"
@@ -90,7 +98,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"8(?:1[019]|2[0156]|84|90)\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"810123456"
@@ -98,14 +106,30 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"RE",
 		262,
@@ -120,9 +144,11 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"([268]\\d{2})(\\d{2})(\\d{2})(\\d{2})",
+				"(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
 				"$1 $2 $3 $4",
-				null,
+				[
+					"[268]"
+				],
 				"0$1"
 			]
 		],
@@ -130,30 +156,234 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		1,
-		"262|6[49]|8",
+		"262|69|8",
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		]
+	],
+	"YT": [
+		null,
+		[
+			null,
+			null,
+			"(?:(?:26|63)9|80\\d)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			]
+		],
+		[
+			null,
+			null,
+			"269(?:0[67]|5[01]|6\\d|[78]0)\\d{4}",
+			null,
+			null,
+			null,
+			"269601234"
+		],
+		[
+			null,
+			null,
+			"639(?:0[0-79]|1[019]|[267]\\d|3[09]|[45]0|9[04-79])\\d{4}",
+			null,
+			null,
+			null,
+			"639012345"
+		],
+		[
+			null,
+			null,
+			"80\\d{7}",
+			null,
+			null,
+			null,
+			"801234567"
+		],
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		"YT",
+		262,
+		"00",
+		"0",
+		null,
+		null,
+		"0",
+		null,
+		null,
+		null,
+		null,
+		null,
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		null,
+		"269|63",
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		null,
+		null,
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

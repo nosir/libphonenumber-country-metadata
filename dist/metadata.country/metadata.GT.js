@@ -46,62 +46,115 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[2-7]\\d{7}|1[89]\\d{9}",
-			"\\d{8}(?:\\d{3})?"
+			"(?:1\\d{3}|[2-7])\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				11
+			]
 		],
 		[
 			null,
 			null,
 			"[267][2-9]\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"22456789"
+			null,
+			"22456789",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"[345]\\d{7}",
-			"\\d{8}",
+			"[3-5]\\d{7}",
 			null,
 			null,
-			"51234567"
+			null,
+			"51234567",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"18[01]\\d{8}",
-			"\\d{11}",
 			null,
 			null,
-			"18001112222"
+			null,
+			"18001112222",
+			null,
+			null,
+			[
+				11
+			]
 		],
 		[
 			null,
 			null,
 			"19\\d{9}",
-			"\\d{11}",
 			null,
 			null,
-			"19001112222"
+			null,
+			"19001112222",
+			null,
+			null,
+			[
+				11
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"GT",
 		502,
@@ -135,30 +188,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

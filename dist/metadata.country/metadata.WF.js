@@ -46,14 +46,22 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[4-8]\\d{5}",
-			"\\d{6}"
+			"(?:[45]0|68|72|8\\d)\\d{4}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
 			"(?:50|68|72)\\d{4}",
-			"\\d{6}",
+			null,
 			null,
 			null,
 			"501234"
@@ -62,7 +70,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"(?:50|68|72|8[23])\\d{4}",
-			"\\d{6}",
+			null,
 			null,
 			null,
 			"501234"
@@ -70,32 +78,72 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"WF",
 		681,
@@ -111,29 +159,56 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			[
 				null,
 				"(\\d{2})(\\d{2})(\\d{2})",
-				"$1 $2 $3"
+				"$1 $2 $3",
+				[
+					"[4-8]"
+				]
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
@@ -141,7 +216,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"[48]0\\d{4}",
-			"\\d{6}",
+			null,
 			null,
 			null,
 			"401234"

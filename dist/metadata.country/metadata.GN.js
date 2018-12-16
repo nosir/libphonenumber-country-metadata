@@ -46,59 +46,115 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[367]\\d{7,8}",
-			"\\d{8,9}"
+			"(?:30|6\\d\\d|722)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"30(?:24|3[12]|4[1-35-7]|5[13]|6[189]|[78]1|9[1478])\\d{4}",
-			"\\d{8}",
 			null,
 			null,
-			"30241234"
+			null,
+			"30241234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"6[02356]\\d{7}",
-			"\\d{9}",
 			null,
 			null,
-			"601123456"
+			null,
+			"601123456",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"722\\d{6}",
-			"\\d{9}",
 			null,
 			null,
-			"722123456"
+			null,
+			"722123456",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		"GN",
 		224,
@@ -132,30 +188,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

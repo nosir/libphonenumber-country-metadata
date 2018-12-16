@@ -46,62 +46,117 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"(?:[346-9]|180)\\d{5}",
-			"\\d{6,8}"
+			"(?:1|6\\d)\\d{7}|[136-9]\\d{5}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				6,
+				8,
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"[78]\\d{5}",
-			"\\d{6}",
 			null,
 			null,
-			"712345"
+			null,
+			"712345",
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"[346]\\d{5}",
-			"\\d{6}",
+			"690\\d{6}|[36]\\d{5}",
 			null,
 			null,
-			"312345"
+			null,
+			"312345",
+			null,
+			null,
+			[
+				6,
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"180[02]\\d{4}",
-			"\\d{8}",
 			null,
 			null,
-			"18001234"
+			null,
+			"18001234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"9\\d{5}",
-			"\\d{6}",
+			"[19]\\d{5}",
 			null,
 			null,
-			"912345"
+			null,
+			"912345",
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"AD",
 		376,
@@ -119,15 +174,23 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 				"(\\d{3})(\\d{3})",
 				"$1 $2",
 				[
-					"[346-9]"
+					"[136-9]"
 				]
 			],
 			[
 				null,
-				"(180[02])(\\d{4})",
+				"(\\d{4})(\\d{4})",
 				"$1 $2",
 				[
 					"1"
+				]
+			],
+			[
+				null,
+				"(\\d{3})(\\d{3})(\\d{3})",
+				"$1 $2 $3",
+				[
+					"6"
 				]
 			]
 		],
@@ -135,30 +198,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			"1800\\d{4}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

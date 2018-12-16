@@ -46,59 +46,115 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[027]\\d{7}",
-			"\\d{8}"
+			"(?:0800|(?:[237]\\d|900)\\d\\d)\\d{4}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				9
+			]
 		],
 		[
 			null,
 			null,
-			"2[2-5]\\d{6}",
-			"\\d{8}",
+			"[23][2-5]\\d{6}",
 			null,
 			null,
-			"22171234"
+			null,
+			"22171234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"7[6-8]\\d{6}",
-			"\\d{8}",
+			"7[6-9]\\d{6}",
 			null,
 			null,
-			"76123456"
+			null,
+			"76123456",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"0800\\d{4}",
-			"\\d{8}",
 			null,
 			null,
-			"08001234"
+			null,
+			"08001234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			"900\\d{6}",
+			null,
+			null,
+			null,
+			"900012345",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			"70\\d{6}",
+			null,
+			null,
+			null,
+			"70012345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		"SZ",
 		268,
@@ -116,7 +172,15 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 				"(\\d{4})(\\d{4})",
 				"$1 $2",
 				[
-					"[027]"
+					"[0237]"
+				]
+			],
+			[
+				null,
+				"(\\d{5})(\\d{4})",
+				"$1 $2",
+				[
+					"9"
 				]
 			]
 		],
@@ -124,8 +188,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
@@ -133,24 +205,45 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"0800\\d{4}",
-			"\\d{8}",
 			null,
 			null,
-			"08001234"
+			null,
+			null,
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
-		1,
+		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

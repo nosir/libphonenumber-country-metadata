@@ -46,56 +46,123 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"1\\d{9}|[28]\\d{7}",
-			"\\d{6,8}|\\d{10}"
+			"(?:(?:19\\d|2)\\d|85)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				10
+			],
+			[
+				6,
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"2\\d{7}|85\\d{6}",
-			"\\d{6,8}",
+			"(?:2\\d|85)\\d{6}",
 			null,
 			null,
-			"21234567"
+			null,
+			"21234567",
+			null,
+			null,
+			[
+				8
+			],
+			[
+				6,
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"19[123]\\d{7}",
-			"\\d{10}",
+			"19[1-3]\\d{7}",
 			null,
 			null,
-			"1921234567"
+			null,
+			"1921234567",
+			null,
+			null,
+			[
+				10
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"KP",
 		850,
@@ -108,15 +175,6 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		null,
 		null,
 		[
-			[
-				null,
-				"(\\d{3})(\\d{3})(\\d{4})",
-				"$1 $2 $3",
-				[
-					"1"
-				],
-				"0$1"
-			],
 			[
 				null,
 				"(\\d)(\\d{3})(\\d{4})",
@@ -134,39 +192,77 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 					"8"
 				],
 				"0$1"
+			],
+			[
+				null,
+				"(\\d{3})(\\d{3})(\\d{4})",
+				"$1 $2 $3",
+				[
+					"1"
+				],
+				"0$1"
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"2(?:[0-24-9]\\d{2}|3(?:[0-79]\\d|8[02-9]))\\d{4}",
-			"\\d{8}",
+			"2(?:[0-24-9]\\d\\d|3(?:[0-79]\\d|8[02-9]))\\d{4}",
 			null,
 			null,
-			"23821234"
+			null,
+			null,
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

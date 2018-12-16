@@ -46,56 +46,125 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[1-7]\\d{7,9}",
-			"\\d{6,10}"
+			"(?:1|[2-6]\\d?|7\\d\\d)\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				9,
+				10
+			],
+			[
+				6,
+				7
+			]
 		],
 		[
 			null,
 			null,
 			"1\\d{7}|(?:2[13-5]|3[02367]|4[023]|5[03]|6[026])\\d{6,7}",
-			"\\d{6,9}",
 			null,
 			null,
-			"12345678"
+			null,
+			"12345678",
+			null,
+			null,
+			[
+				8,
+				9
+			],
+			[
+				6,
+				7
+			]
 		],
 		[
 			null,
 			null,
 			"7[3-9]\\d{8}",
-			"\\d{10}",
 			null,
 			null,
-			"7912345678"
+			null,
+			"7912345678",
+			null,
+			null,
+			[
+				10
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"IQ",
 		964,
@@ -110,7 +179,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"(1)(\\d{3})(\\d{4})",
+				"(\\d)(\\d{3})(\\d{4})",
 				"$1 $2 $3",
 				[
 					"1"
@@ -119,7 +188,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"([2-6]\\d)(\\d{3})(\\d{3,4})",
+				"(\\d{2})(\\d{3})(\\d{3,4})",
 				"$1 $2 $3",
 				[
 					"[2-6]"
@@ -128,7 +197,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"(7\\d{2})(\\d{3})(\\d{4})",
+				"(\\d{3})(\\d{3})(\\d{4})",
 				"$1 $2 $3",
 				[
 					"7"
@@ -140,30 +209,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

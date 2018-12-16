@@ -46,62 +46,115 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[2-79]\\d{6,7}",
-			"\\d{7,8}"
+			"(?:(?:[2-6]|7\\d)\\d|90)\\d{5}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				7,
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"(?:2(?:4[0-48]|6[0-24]|9[0578])|3(?:1[0235-9]|55|[69]\\d|7[01])|4(?:6[03]|7[1267]|9[0-5])|5(?:3[0389]|4[0489]|7[1-47]|88|9[0-49])|6(?:2[1-35]|5[149]|8[067]))\\d{4}",
-			"\\d{7}",
+			"(?:2(?:4[0-48]|6[0-24]|9[0578])|3(?:1[0-35-9]|55|[69]\\d|7[01])|4(?:6[03]|7[1267]|9[0-5])|5(?:3[0389]|4[0489]|7[1-47]|88|9[0-49])|6(?:2[1-35]|5[149]|8[067]))\\d{4}",
 			null,
 			null,
-			"2401234"
+			null,
+			"2401234",
+			null,
+			null,
+			[
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"7(?:[1-6]\\d|7[014-8])\\d{5}",
-			"\\d{8}",
+			"7(?:[1-6]\\d{3}|7(?:[014-8]\\d\\d|200))\\d{3}",
 			null,
 			null,
-			"71123456"
+			null,
+			"71123456",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"90\\d{5}",
-			"\\d{7}",
 			null,
 			null,
-			"9012345"
+			null,
+			"9012345",
+			null,
+			null,
+			[
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"79[12][01]\\d{4}",
-			"\\d{8}",
+			"79(?:1(?:[01]\\d|20)|2[0-2]\\d)\\d{3}",
 			null,
 			null,
-			"79101234"
+			null,
+			"79101234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		"BW",
 		267,
@@ -124,18 +177,18 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"(7\\d)(\\d{3})(\\d{3})",
-				"$1 $2 $3",
+				"(\\d{2})(\\d{5})",
+				"$1 $2",
 				[
-					"7"
+					"90"
 				]
 			],
 			[
 				null,
-				"(90)(\\d{5})",
-				"$1 $2",
+				"(\\d{2})(\\d{3})(\\d{3})",
+				"$1 $2 $3",
 				[
-					"9"
+					"7"
 				]
 			]
 		],
@@ -143,30 +196,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

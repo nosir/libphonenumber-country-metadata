@@ -46,62 +46,121 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[05-7]\\d{7,9}",
-			"\\d{6,10}"
+			"(?:0549|[5-7]\\d)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				10
+			],
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
 			"0549(?:8[0157-9]|9\\d)\\d{4}",
-			"\\d{6,10}",
 			null,
 			null,
-			"0549886377"
+			null,
+			"0549886377",
+			null,
+			null,
+			[
+				10
+			],
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
 			"6[16]\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"66661212"
+			null,
+			"66661212",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"7[178]\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"71123456"
+			null,
+			"71123456",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"5[158]\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"58001110"
+			null,
+			"58001110",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		"SM",
 		378,
@@ -109,7 +168,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		null,
 		null,
 		null,
-		"(?:0549)?([89]\\d{5})",
+		"([89]\\d{5})$",
 		"0549$1",
 		null,
 		null,
@@ -124,74 +183,73 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"(0549)(\\d{6})",
+				"(\\d{4})(\\d{6})",
 				"$1 $2",
 				[
 					"0"
 				]
-			],
+			]
+		],
+		null,
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
 			[
-				null,
-				"(\\d{6})",
-				"0549 $1",
-				[
-					"[89]"
-				]
+				-1
+			]
+		],
+		null,
+		null,
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
 			]
 		],
 		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
 			[
-				null,
-				"(\\d{2})(\\d{2})(\\d{2})(\\d{2})",
-				"$1 $2 $3 $4",
-				[
-					"[5-7]"
-				]
-			],
-			[
-				null,
-				"(0549)(\\d{6})",
-				"($1) $2",
-				[
-					"0"
-				]
-			],
-			[
-				null,
-				"(\\d{6})",
-				"(0549) $1",
-				[
-					"[89]"
-				]
+				-1
 			]
 		],
-		[
-			null,
-			null,
-			"NA",
-			"NA"
-		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
-		],
-		[
 			null,
 			null,
-			"NA",
-			"NA"
-		],
-		1,
-		null,
-		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

@@ -47,13 +47,21 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"[19]\\d{8}",
-			"\\d{9}"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"18\\d{7}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"181234567"
@@ -62,7 +70,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"(?:12|9[1257])\\d{7}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"977123456"
@@ -70,32 +78,72 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"SS",
 		211,
@@ -112,7 +160,9 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 				null,
 				"(\\d{3})(\\d{3})(\\d{3})",
 				"$1 $2 $3",
-				null,
+				[
+					"[19]"
+				],
 				"0$1"
 			]
 		],
@@ -120,30 +170,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

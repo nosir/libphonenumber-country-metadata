@@ -46,23 +46,40 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[289]\\d{8}",
-			"\\d{9}"
+			"(?:(?:21|76|9\\d)\\d|800)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			],
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
 			"21[1-8]\\d{6}",
-			"\\d{9}",
 			null,
 			null,
-			"211234567"
+			null,
+			"211234567",
+			null,
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"9(?:5[05]|6\\d|7[1-9])\\d{6}",
-			"\\d{9}",
+			"(?:76|9[5-8])\\d{7}",
+			null,
 			null,
 			null,
 			"955123456"
@@ -71,7 +88,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"800\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"800123456"
@@ -79,26 +96,58 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"ZM",
 		260,
@@ -113,51 +162,107 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"([29]\\d)(\\d{7})",
-				"$1 $2",
+				"(\\d{3})(\\d{3})",
+				"$1 $2"
+			],
+			[
+				null,
+				"(\\d{3})(\\d{3})(\\d{3})",
+				"$1 $2 $3",
 				[
-					"[29]"
+					"[28]"
 				],
 				"0$1"
 			],
 			[
 				null,
-				"(800)(\\d{3})(\\d{3})",
-				"$1 $2 $3",
+				"(\\d{2})(\\d{7})",
+				"$1 $2",
 				[
-					"8"
+					"[79]"
 				],
 				"0$1"
 			]
 		],
-		null,
+		[
+			[
+				null,
+				"(\\d{3})(\\d{3})(\\d{3})",
+				"$1 $2 $3",
+				[
+					"[28]"
+				],
+				"0$1"
+			],
+			[
+				null,
+				"(\\d{2})(\\d{7})",
+				"$1 $2",
+				[
+					"[79]"
+				],
+				"0$1"
+			]
+		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

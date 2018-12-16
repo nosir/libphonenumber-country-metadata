@@ -46,14 +46,23 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"4\\d{5,7}|8\\d{7}",
-			"\\d{6}(?:\\d{2})?"
+			"[48]\\d{7}|4\\d{5}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				6,
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"4(?:[09][45689]\\d|4)\\d{4}",
-			"\\d{6}(?:\\d{2})?",
+			"4(?:[09][4-689]\\d|4)\\d{4}",
+			null,
 			null,
 			null,
 			"40412345"
@@ -62,40 +71,85 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"8[79]\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"87123456"
+			null,
+			"87123456",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"PF",
 		689,
@@ -110,18 +164,18 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"(\\d{2})(\\d{2})(\\d{2})(\\d{2})",
-				"$1 $2 $3 $4",
-				[
-					"4[09]|8[79]"
-				]
-			],
-			[
-				null,
 				"(\\d{2})(\\d{2})(\\d{2})",
 				"$1 $2 $3",
 				[
 					"44"
+				]
+			],
+			[
+				null,
+				"(\\d{2})(\\d{2})(\\d{2})(\\d{2})",
+				"$1 $2 $3 $4",
+				[
+					"[48]"
 				]
 			]
 		],
@@ -129,8 +183,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
@@ -138,24 +200,45 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"44\\d{4}",
-			"\\d{6}",
 			null,
 			null,
-			"441234"
+			null,
+			null,
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

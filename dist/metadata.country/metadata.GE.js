@@ -46,23 +46,40 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[34578]\\d{8}",
-			"\\d{6,9}"
+			"(?:[3-57]\\d\\d|800)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				9
+			],
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
 			"(?:3(?:[256]\\d|4[124-9]|7[0-4])|4(?:1\\d|2[2-7]|3[1-79]|4[2-8]|7[239]|9[1-7]))\\d{6}",
-			"\\d{6,9}",
 			null,
 			null,
-			"322123456"
+			null,
+			"322123456",
+			null,
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"5(?:14|5[01578]|68|7[0147-9]|9[0-35-9])\\d{6}",
-			"\\d{9}",
+			"(?:5(?:[14]4|5[0157-9]|68|7[0147-9]|9[1-35-9])|790)\\d{6}",
+			null,
 			null,
 			null,
 			"555123456"
@@ -71,7 +88,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"800\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"800123456"
@@ -79,26 +96,50 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"706\\d{6}",
-			"\\d{9}",
+			null,
 			null,
 			null,
 			"706123456"
@@ -125,54 +166,73 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
+				"(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
+				"$1 $2 $3 $4",
+				[
+					"5|79"
+				]
+			],
+			[
+				null,
 				"(\\d{3})(\\d{3})(\\d{3})",
 				"$1 $2 $3",
 				[
 					"7"
 				],
 				"0$1"
-			],
-			[
-				null,
-				"(\\d{3})(\\d{2})(\\d{2})(\\d{2})",
-				"$1 $2 $3 $4",
-				[
-					"5"
-				],
-				"$1"
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"706\\d{6}",
-			"\\d{9}",
-			null,
-			null,
-			"706123456"
+			"706\\d{6}"
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

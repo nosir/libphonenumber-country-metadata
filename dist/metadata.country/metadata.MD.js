@@ -46,14 +46,22 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[235-9]\\d{7}",
-			"\\d{8}"
+			"(?:[235-7]\\d|[89]0)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"(?:2(?:1[0569]|2\\d|3[015-7]|4[1-46-9]|5[0-24689]|6[2-589]|7[1-37]|9[1347-9])|5(?:33|5[257]))\\d{5}",
-			"\\d{8}",
+			"(?:(?:2[1-9]|3[1-79])\\d|5(?:33|5[257]))\\d{5}",
+			null,
 			null,
 			null,
 			"22212345"
@@ -61,8 +69,8 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"(?:562\\d|6(?:[089]\\d{2}|[12][01]\\d|7(?:[1-6]\\d|7[0-4]))|7(?:6[07]|7[457-9]|[89]\\d)\\d)\\d{4}",
-			"\\d{8}",
+			"(?:562|6\\d\\d|7(?:[189]\\d|6[07]|7[457-9]))\\d{5}",
+			null,
 			null,
 			null,
 			"62112345"
@@ -71,7 +79,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"800\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"80012345"
@@ -80,7 +88,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"90[056]\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"90012345"
@@ -89,7 +97,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"808\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"80812345"
@@ -97,14 +105,22 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"3[08]\\d{6}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"30123456"
@@ -131,16 +147,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"([25-7]\\d{2})(\\d{2})(\\d{3})",
+				"(\\d{3})(\\d{2})(\\d{3})",
 				"$1 $2 $3",
 				[
-					"2[13-79]|[5-7]"
+					"[25-7]"
 				],
 				"0$1"
 			],
 			[
 				null,
-				"([89]\\d{2})(\\d{5})",
+				"(\\d{3})(\\d{5})",
 				"$1 $2",
 				[
 					"[89]"
@@ -152,22 +168,38 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"8(?:03|14)\\d{5}",
-			"\\d{8}",
+			"803\\d{5}",
+			null,
 			null,
 			null,
 			"80312345"
@@ -177,8 +209,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

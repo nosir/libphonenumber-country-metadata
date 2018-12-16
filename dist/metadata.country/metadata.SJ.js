@@ -42,76 +42,320 @@ i18n.phonenumbers.metadata.countryCodeToRegionCodeMap = {
 * @type {!Object.<string, Array>}
 */
 i18n.phonenumbers.metadata.countryToMetadata = {
-	"SJ": [
+	"NO": [
 		null,
 		[
 			null,
 			null,
-			"0\\d{4}|[4789]\\d{7}",
-			"\\d{5}(?:\\d{3})?"
+			"(?:0|[2-9]\\d{3})\\d{4}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				5,
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"79\\d{6}",
-			"\\d{8}",
+			"(?:2[1-4]|3[1-3578]|5[1-35-7]|6[1-4679]|7[0-8])\\d{6}",
 			null,
 			null,
-			"79123456"
+			null,
+			"21234567",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"(?:4[015-8]|5[89]|9\\d)\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"41234567"
+			null,
+			"40612345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"80[01]\\d{5}",
-			"\\d{8}",
 			null,
 			null,
-			"80012345"
+			null,
+			"80012345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"82[09]\\d{5}",
-			"\\d{8}",
 			null,
 			null,
-			"82012345"
+			null,
+			"82012345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"810(?:0[0-6]|[2-8]\\d)\\d{3}",
-			"\\d{8}",
 			null,
 			null,
-			"81021234"
+			null,
+			"81021234",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"880\\d{5}",
-			"\\d{8}",
 			null,
 			null,
-			"88012345"
+			null,
+			"88012345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"85[0-5]\\d{5}",
-			"\\d{8}",
 			null,
 			null,
-			"85012345"
+			null,
+			"85012345",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		"NO",
+		47,
+		"00",
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		[
+			[
+				null,
+				"(\\d{2})(\\d{2})(\\d{2})(\\d{2})",
+				"$1 $2 $3 $4",
+				[
+					"[235-7]"
+				]
+			],
+			[
+				null,
+				"(\\d{3})(\\d{2})(\\d{3})",
+				"$1 $2 $3",
+				[
+					"[489]"
+				]
+			]
+		],
+		null,
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		1,
+		"[02-689]|7[0-8]",
+		[
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
+		],
+		[
+			null,
+			null,
+			"(?:0\\d|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
+			null,
+			null,
+			null,
+			"01234"
+		],
+		null,
+		null,
+		[
+			null,
+			null,
+			"81[23]\\d{5}",
+			null,
+			null,
+			null,
+			"81212345",
+			null,
+			null,
+			[
+				8
+			]
+		]
+	],
+	"SJ": [
+		null,
+		[
+			null,
+			null,
+			"(?:0|(?:[4589]\\d|79)\\d\\d)\\d{4}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				5,
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"79\\d{6}",
+			null,
+			null,
+			null,
+			"79123456",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"(?:4[015-8]|5[89]|9\\d)\\d{6}",
+			null,
+			null,
+			null,
+			"41234567",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"80[01]\\d{5}",
+			null,
+			null,
+			null,
+			"80012345",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"82[09]\\d{5}",
+			null,
+			null,
+			null,
+			"82012345",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"810(?:0[0-6]|[2-8]\\d)\\d{3}",
+			null,
+			null,
+			null,
+			"81021234",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"880\\d{5}",
+			null,
+			null,
+			null,
+			"88012345",
+			null,
+			null,
+			[
+				8
+			]
+		],
+		[
+			null,
+			null,
+			"85[0-5]\\d{5}",
+			null,
+			null,
+			null,
+			"85012345",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		"SJ",
 		47,
@@ -128,36 +372,57 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
-		null,
+		"79",
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"0\\d{4}|81(?:0(?:0[7-9]|1\\d)|5\\d{2})\\d{3}",
-			"\\d{5}(?:\\d{3})?",
+			"(?:0\\d|81(?:0(?:0[7-9]|1\\d)|5\\d\\d))\\d{3}",
+			null,
 			null,
 			null,
 			"01234"
 		],
-		1,
+		null,
 		null,
 		[
 			null,
 			null,
 			"81[23]\\d{5}",
-			"\\d{8}",
 			null,
 			null,
-			"81212345"
+			null,
+			"81212345",
+			null,
+			null,
+			[
+				8
+			]
 		]
 	]
 };

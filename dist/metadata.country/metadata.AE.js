@@ -46,32 +46,60 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[2-79]\\d{7,8}|800\\d{2,9}",
-			"\\d{5,12}"
+			"(?:[4-7]\\d|9[0-689])\\d{7}|800\\d{2,9}|[2-4679]\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
 		],
 		[
 			null,
 			null,
 			"[2-4679][2-8]\\d{6}",
-			"\\d{7,8}",
 			null,
 			null,
-			"22345678"
+			null,
+			"22345678",
+			null,
+			null,
+			[
+				8
+			],
+			[
+				7
+			]
 		],
 		[
 			null,
 			null,
-			"5[0256]\\d{7}",
-			"\\d{9}",
+			"5[024-68]\\d{7}",
 			null,
 			null,
-			"501234567"
+			null,
+			"501234567",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"400\\d{6}|800\\d{2,9}",
-			"\\d{5,12}",
+			null,
 			null,
 			null,
 			"800123456"
@@ -80,31 +108,57 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"900[02]\\d{5}",
-			"\\d{9}",
 			null,
 			null,
-			"900234567"
+			null,
+			"900234567",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"700[05]\\d{5}",
-			"\\d{9}",
 			null,
 			null,
-			"700012345"
+			null,
+			"700012345",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"AE",
 		971,
@@ -119,16 +173,24 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"([2-4679])(\\d{3})(\\d{4})",
+				"(\\d{3})(\\d{2,9})",
+				"$1 $2",
+				[
+					"60|8"
+				]
+			],
+			[
+				null,
+				"(\\d)(\\d{3})(\\d{4})",
 				"$1 $2 $3",
 				[
-					"[2-4679][2-8]"
+					"[236]|[479][2-8]"
 				],
 				"0$1"
 			],
 			[
 				null,
-				"(5[0256])(\\d{3})(\\d{4})",
+				"(\\d{2})(\\d{3})(\\d{4})",
 				"$1 $2 $3",
 				[
 					"5"
@@ -137,54 +199,73 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"([479]00)(\\d)(\\d{5})",
+				"(\\d{3})(\\d)(\\d{5})",
 				"$1 $2 $3",
 				[
-					"[479]0"
-				],
-				"$1"
-			],
-			[
-				null,
-				"([68]00)(\\d{2,9})",
-				"$1 $2",
-				[
-					"60|8"
-				],
-				"$1"
+					"[479]"
+				]
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"600[25]\\d{5}",
-			"\\d{9}",
 			null,
 			null,
-			"600212345"
+			null,
+			"600212345",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

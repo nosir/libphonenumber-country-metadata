@@ -46,59 +46,118 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[2-8]\\d{4,6}",
-			"\\d{5,7}"
+			"(?:[2-6]|8\\d(?:\\d{4})?)\\d{4}|[78]\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				5,
+				6,
+				7,
+				10
+			]
 		],
 		[
 			null,
 			null,
-			"(?:[2-5]\\d|6[1-9]|84\\d{2})\\d{3}",
-			"\\d{5,7}",
+			"(?:[2-5]\\d|6[1-9])\\d{3}",
 			null,
 			null,
-			"22123"
+			null,
+			"22123",
+			null,
+			null,
+			[
+				5
+			]
 		],
 		[
 			null,
 			null,
-			"(?:60|7[25-7]\\d)\\d{4}",
-			"\\d{6,7}",
+			"(?:7[25-7]|8(?:[3-7]|9\\d{3}))\\d{5}",
 			null,
 			null,
-			"601234"
+			null,
+			"7212345",
+			null,
+			null,
+			[
+				7,
+				10
+			]
 		],
 		[
 			null,
 			null,
 			"800\\d{3}",
-			"\\d{6}",
 			null,
 			null,
-			"800123"
+			null,
+			"800123",
+			null,
+			null,
+			[
+				6
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"WS",
 		685,
@@ -113,7 +172,15 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"(8\\d{2})(\\d{3,4})",
+				"(\\d{5})",
+				"$1",
+				[
+					"[2-6]"
+				]
+			],
+			[
+				null,
+				"(\\d{3})(\\d{3,7})",
 				"$1 $2",
 				[
 					"8"
@@ -121,18 +188,10 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"(7\\d)(\\d{5})",
+				"(\\d{2})(\\d{5})",
 				"$1 $2",
 				[
 					"7"
-				]
-			],
-			[
-				null,
-				"(\\d{5})",
-				"$1",
-				[
-					"[2-6]"
 				]
 			]
 		],
@@ -140,30 +199,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

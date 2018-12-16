@@ -47,55 +47,118 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"[13]\\d{5}",
-			"\\d{5,6}"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				6
+			],
+			[
+				5
+			]
 		],
 		[
 			null,
 			null,
-			"(?:1(?:06|17|28|39)|3[012]\\d)\\d{3}",
-			"\\d{5,6}",
+			"(?:1(?:06|17|28|39)|3[0-2]\\d)\\d{3}",
 			null,
 			null,
-			"106609"
+			null,
+			"106609",
+			null,
+			null,
+			null,
+			[
+				5
+			]
 		],
 		[
 			null,
 			null,
 			"3[58]\\d{4}",
-			"\\d{5,6}",
 			null,
 			null,
-			"381234"
+			null,
+			"381234",
+			null,
+			null,
+			null,
+			[
+				5
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"NF",
 		672,
@@ -129,30 +192,62 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

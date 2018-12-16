@@ -46,14 +46,22 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[257-9]\\d{7}",
-			"\\d{8}"
+			"(?:[279]\\d|[58]0)\\d{6}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
 			"2[2-6]\\d{6}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"22345678"
@@ -62,7 +70,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"9[4-79]\\d{6}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"96123456"
@@ -71,7 +79,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"800\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"80001234"
@@ -80,7 +88,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"90[09]\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"90012345"
@@ -89,7 +97,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"80[1-9]\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"80112345"
@@ -98,7 +106,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			null,
 			null,
 			"700\\d{5}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"70012345"
@@ -106,8 +114,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		"CY",
 		357,
@@ -123,29 +139,48 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			[
 				null,
 				"(\\d{2})(\\d{6})",
-				"$1 $2"
+				"$1 $2",
+				[
+					"[257-9]"
+				]
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"(?:50|77)\\d{6}",
-			"\\d{8}",
+			null,
 			null,
 			null,
 			"77123456"
@@ -155,8 +190,16 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };

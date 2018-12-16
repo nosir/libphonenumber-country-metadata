@@ -46,69 +46,120 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			null,
 			null,
-			"[2-9]\\d{7,8}|1\\d{3}(?:\\d{5,6})?",
-			"\\d{4}|\\d{8,10}"
+			"(?:1\\d\\d?|[2-57]|[689]\\d)\\d{7}",
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				8,
+				9,
+				10
+			]
 		],
 		[
 			null,
 			null,
 			"(?:2\\d|3[2-9]|4[2-5]|5[2-6]|7[3-7])\\d{6}",
-			"\\d{8}",
 			null,
 			null,
-			"21234567"
+			null,
+			"21234567",
+			null,
+			null,
+			[
+				8
+			]
 		],
 		[
 			null,
 			null,
-			"(?:14|6[1-3]|[89]\\d)\\d{7}",
-			"\\d{9}",
+			"(?:14|6[1-6]|[89]\\d)\\d{7}",
 			null,
 			null,
-			"812345678"
+			null,
+			"812345678",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		[
 			null,
 			null,
 			"1800\\d{6}",
-			"\\d{10}",
 			null,
 			null,
-			"1800123456"
+			null,
+			"1800123456",
+			null,
+			null,
+			[
+				10
+			]
 		],
 		[
 			null,
 			null,
 			"1900\\d{6}",
-			"\\d{10}",
 			null,
 			null,
-			"1900123456"
+			null,
+			"1900123456",
+			null,
+			null,
+			[
+				10
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
 			"6[08]\\d{7}",
-			"\\d{9}",
 			null,
 			null,
-			"601234567"
+			null,
+			"601234567",
+			null,
+			null,
+			[
+				9
+			]
 		],
 		"TH",
 		66,
-		"00",
+		"00[1-9]",
 		"0",
 		null,
 		null,
@@ -119,7 +170,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 		[
 			[
 				null,
-				"(2)(\\d{3})(\\d{4})",
+				"(\\d)(\\d{3})(\\d{4})",
 				"$1 $2 $3",
 				[
 					"2"
@@ -128,7 +179,7 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"([13-9]\\d)(\\d{3})(\\d{3,4})",
+				"(\\d{2})(\\d{3})(\\d{3,4})",
 				"$1 $2 $3",
 				[
 					"14|[3-9]"
@@ -137,48 +188,73 @@ i18n.phonenumbers.metadata.countryToMetadata = {
 			],
 			[
 				null,
-				"(1[89]00)(\\d{3})(\\d{3})",
+				"(\\d{4})(\\d{3})(\\d{3})",
 				"$1 $2 $3",
 				[
 					"1"
-				],
-				"$1"
+				]
 			]
 		],
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"1\\d{3}",
-			"\\d{4}",
 			null,
 			null,
-			"1100"
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		[
 			null,
 			null,
-			"1\\d{3}",
-			"\\d{4}",
 			null,
 			null,
-			"1100"
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		],
 		null,
 		null,
 		[
 			null,
 			null,
-			"NA",
-			"NA"
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			[
+				-1
+			]
 		]
 	]
 };
